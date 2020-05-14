@@ -1,0 +1,28 @@
+html,
+
+body {
+  background-color: #fcfce6;
+  cursor: auto;
+  cursor: url(images/cursor.png) 4 12, auto;
+}
+
+h1{
+  font-family: "helvetica";
+  font-weight: bold;
+  font-size: 70px;
+  position: absolute;
+  bottom: -50px;
+  color: #141414;
+}
+
+.sidebar a{
+  font-family: "helvetica";
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+  text-decoration: none;
+  color: #141414;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
